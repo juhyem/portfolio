@@ -1,6 +1,8 @@
 @font-face {
 font-family: 'moonflower';
-src: url('http://www.myfontfree.com/download-moon_flower-zip22458.htm');
+src: url('moon_flower-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
 }
 body{
 font-family: moonflower
