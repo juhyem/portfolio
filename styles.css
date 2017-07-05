@@ -20,8 +20,8 @@ padding:0;
 header{
 background:#a6badb;
 padding-top:30px;
-min-height:70px;
-border-bottom:##374c6d 3px solid;
+min-height:40px;
+border-bottom:#374c6d 3px solid;
 }
 
 header a{
