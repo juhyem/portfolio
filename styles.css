@@ -44,7 +44,7 @@ header #branding{
 }
 
 header #branding h1{
-
+  margin:0;
 }
 
 header nav{
