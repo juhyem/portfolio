@@ -22,6 +22,12 @@ padding:0;
   src: url(https://juhyem.github.io/portfolio/moonflower.ttf);
 }
 
+@font-face{
+  font-family:paperbanner;
+  src: url(https://juhyem.github.io/portfolio/paperbanner.ttf);
+}
+
+
 header{
 background:#a6badb;
 padding-top:20px;
@@ -46,11 +52,11 @@ padding: 0 20px 0 20px;
 
 header #branding{
   float:left;
-  font-family:bromello;
 }
 
 header #branding h1{
   margin:20px;
+  font-family:paperbanner;
   
 }
 
