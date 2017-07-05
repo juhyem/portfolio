@@ -58,7 +58,7 @@ header a:hover{
 /* Showcase */
 @font-face{
   font-family:bromello;
-  src: url(../bromello.otf);
+  src: url(https://juhyem.github.io/portfolio/bromello.otf);
 }
 #showcase{
   min-height: 400px;
