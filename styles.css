@@ -17,6 +17,11 @@ padding:0;
   src: url(https://juhyem.github.io/portfolio/bromello.otf);
 }
 
+@font-face{
+  font-family:moonflower;
+  src: url(https://juhyem.github.io/portfolio/moonflower.ttf);
+}
+
 header{
 background:#a6badb;
 padding-top:30px;
