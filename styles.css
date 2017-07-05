@@ -27,6 +27,10 @@ padding:0;
   src: url(https://juhyem.github.io/portfolio/paperbanner.ttf);
 }
 
+@font-face{
+  font-family:shorelines;
+  src: url(https://juhyem.github.io/portfolio/shorelines.otf);
+}
 
 header{
 background:#a6badb;
