@@ -33,7 +33,7 @@ padding:0;
 }
 
 header{
-background:#FEDC3D;
+background:#ececec;
 padding-top:20px;
 min-height:40px;
 padding-bottom:20px;
@@ -101,7 +101,8 @@ header a:hover{
 
 #leadership{
   min-height: 400px;
-  background-color:#0f1144;
+  background-color:#c33763;
+  <!--#0f1144-->
   text-align:center;
   color:#eff2f7;
 }
@@ -117,11 +118,13 @@ header a:hover{
 #leadership p{
   font-size:20px;
   color:#eff2f7;
+  
 }
 
 #volunteer{
   min-height: 400px;
-  background-color:#000016;
+  background-color:#00c2bf;
+  <!--#000016-->
   text-align:center;
   color:#eff2f7;
 }
@@ -141,7 +144,8 @@ header a:hover{
 
 #extra{
   min-height: 400px;
-  background-color:#111147;
+  background-color:#ff0;
+  <!--111147-->
   text-align:center;
   color:#eff2f7;
 }
@@ -174,6 +178,6 @@ header a:hover{
   footer{
     padding:10px;
     margin-top:20px;
-    background-color:#FEDC3D;
+    background-color:#ececec;
     text-align:center;
   }
