@@ -101,7 +101,7 @@ header a:hover{
 
 #leadership{
   min-height: 400px;
-  background-color:#c33763;
+  background-color:#f76c6c;
   text-align:center;
   color:#eff2f7;
 }
@@ -110,7 +110,7 @@ header a:hover{
   margin-top:100px;
   font-size:55px;
   margin-bottom:10px;
-  color:#ff0;
+  color:#fedc3d;
   font-family:bromello;
 }
     
@@ -142,7 +142,7 @@ header a:hover{
 
 #extra{
   min-height: 400px;
-  background-color:#ff0;
+  background-color:#fedc3d;
   text-align:center;
   color:#c33763;
 }
@@ -151,13 +151,13 @@ header a:hover{
   margin-top:100px;
   font-size:55px;
   margin-bottom:10px;
-  color:#c33763;
+  color:#f76c6c;
   font-family:bromello;
 }
     
 #extra p{
   font-size:20px;
-  color:#c33763;
+  color:#f76c6c;
 }
 
 /* Boxes */
