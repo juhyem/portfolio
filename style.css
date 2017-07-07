@@ -99,6 +99,13 @@ header a:hover{
   color:#eff2f7;
 }
 
+#leadership{
+  min-height: 400px;
+  background-color:#0f1144
+  text-align:center;
+  color:#eff2f7;
+}
+
 #leadership h1{
   margin-top:100px;
   font-size:55px;
@@ -112,6 +119,13 @@ header a:hover{
   color:#eff2f7;
 }
 
+#volunteer{
+  min-height: 400px;
+  background-color:#000016
+  text-align:center;
+  color:#eff2f7;
+}
+
 #volunteer h1{
   margin-top:100px;
   font-size:55px;
@@ -122,6 +136,13 @@ header a:hover{
     
 #volunteer p{
   font-size:20px;
+  color:#eff2f7;
+}
+
+#extra{
+  min-height: 400px;
+  background-color:#111147
+  text-align:center;
   color:#eff2f7;
 }
 
