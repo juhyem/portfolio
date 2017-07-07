@@ -83,6 +83,7 @@ header a:hover{
   min-height: 400px;
   background:url('http://i.imgur.com/mWYhPEa.jpg') no-repeat -300px -200px;
   text-align:center;
+  background-size:110%;
   color:#eff2f7;
 }
 
