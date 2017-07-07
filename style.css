@@ -101,7 +101,7 @@ header a:hover{
 
 #leadership{
   min-height: 400px;
-  background-color:#0f1144
+  background-color:#0f1144;
   text-align:center;
   color:#eff2f7;
 }
@@ -121,7 +121,7 @@ header a:hover{
 
 #volunteer{
   min-height: 400px;
-  background-color:#000016
+  background-color:#000016;
   text-align:center;
   color:#eff2f7;
 }
@@ -141,7 +141,7 @@ header a:hover{
 
 #extra{
   min-height: 400px;
-  background-color:#111147
+  background-color:#111147;
   text-align:center;
   color:#eff2f7;
 }
