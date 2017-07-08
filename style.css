@@ -101,7 +101,7 @@ header a:hover{
 
 #leadership{
   min-height: 400px;
-  background:url('http://i.imgur.com/2q4QGmG.png?1') no-repeat 40px -20px;
+  background:url('http://i.imgur.com/2q4QGmG.png?1') no-repeat 20px -100px;
   text-align:center;
   color:#eff2f7;
 }
@@ -142,7 +142,7 @@ header a:hover{
 
 #extra{
   min-height: 400px;
-  background:url('http://i.imgur.com/FOnr7Vv.png?1') no-repeat;
+  background:url('http://i.imgur.com/FOnr7Vv.png?1') no-repeat -100px 0;
   background-color:#fedc3d;
   size:120%;
   text-align:center;
