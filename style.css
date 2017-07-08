@@ -124,7 +124,6 @@ header a:hover{
 #volunteer{
   min-height: 400px;
   background-color:#00c2bf;
-  background:url('http://i.imgur.com/FOnr7Vv.png?1') no-repeat;
   text-align:center;
   color:#eff2f7;
 }
@@ -144,6 +143,7 @@ header a:hover{
 
 #extra{
   min-height: 400px;
+  background:url('http://i.imgur.com/FOnr7Vv.png?1') no-repeat;
   background-color:#fedc3d;
   text-align:center;
   color:#c33763;
