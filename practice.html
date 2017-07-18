@@ -7,12 +7,12 @@
 <div class="header">
   <h1>JuHye is Cool</h1>
   <p>wow hello there</p>
-  <button> Jen </button>
 </div>
 
 <div class="container">
   <button onclick="doClick()">Click Me</button>
   <button onclick="changeText(this)">Click here!</button>
+  <button onclick="changeHeader()">Change</button>
 </div>
   
 
@@ -21,6 +21,10 @@ function doClick(){
  alert('You Clickled')};
 function changeText(id){
     id.innerHTML = "You lickd!";}
+function changeHeader(){
+  var heading = document.getElementById('heading');
+  heading.innerHTML = "wow gr9 job";
+}
 </script>
 
 </body>
