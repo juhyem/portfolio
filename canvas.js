@@ -74,14 +74,14 @@ function animate() {
   for (var i = 0;  i < circleArray.length; i++) {
     circleArray[i].update();
   
-  circle.update();
+    circle.update();
   
-  if(x + radius > innerWidth || x - radius < 0){
-    dx = -dx;
+    if(x + radius > innerWidth || x - radius < 0){
+      dx = -dx;
+    }
+    if(y + radius > innerHeight || y - radius < 0){
+      dy = -dy;
+    }
+    x += dx;
+    y += dy;
   }
-  if(y + radius > innerHeight || y - radius < 0){
-    dy = -dy;
-  }
-  x += dx;
-  y += dy;
-}
