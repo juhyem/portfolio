@@ -6,8 +6,9 @@ canvas.height = window.innerHeight;
 var c = canvas.getContext('2D');
 
 //Rectangle
-c.fillStyle = 'rbga(0, 255, 0, 0.5)';
+
 c.fillRect(100, 100, 100, 100);
+console.log(canvas);
 
 //Line
 c.beginPath();
