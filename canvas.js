@@ -68,7 +68,7 @@ for (var i = 0;  i < 100; i++) {
 
 
 function animate() {
-  requestAnimationFrame(animate);
+  requestAnimationFrame(animate());
   c.clearRect(0, 0, innerWidth, innerHeight);
   
   for (var i = 0;  i < circleArray.length; i++) {
