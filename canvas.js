@@ -8,7 +8,7 @@ var c = canvas.getContext('2d');
 //Rectangle
 
 //c.fillRect(100, 100, 100, 100);
-console.log(canvas);
+//console.log(canvas);
 
 //Line
 //c.beginPath();
