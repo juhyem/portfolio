@@ -10,5 +10,5 @@ for(var i=0; i<5; i++){
   var y = Math.random() * window.innerHeight;
   c.beginPath();
   c.arc(x, y, 0, Math.pi * 2, false);
-  
+  c.stroke();
 }
