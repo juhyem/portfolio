@@ -22,6 +22,18 @@ for(var i=0; i<5; i++){
   var x = Math.random() * window.innerWidth;
   var y = Math.random() * window.innerHeight;
   c.beginPath();
-  c.arc(x, y, 0, Math.PI * 2, false);
+  c.arc(x, y, 30, 0, Math.PI * 2, false);
   c.stroke();
+}
+
+var x = 200;
+function animate(){
+  requestAnimationFrame(animate);
+  c.clearRect(0, 0, innerWidth, innerHeight);
+  c.beginPath();
+  c.arc(x, 200, 30, 0, Math.PI * 2, false);
+  c.strokeStyle = 'blue';
+  c.stroke();
+  
+  x += 1
 }
