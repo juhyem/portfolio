@@ -27,6 +27,7 @@ for(var i=0; i<5; i++){
 }
 
 var x = 200;
+var dx = 4;
 function animate(){
   requestAnimationFrame(animate);
   c.clearRect(0, 0, innerWidth, innerHeight);
@@ -35,5 +36,8 @@ function animate(){
   c.strokeStyle = 'blue';
   c.stroke();
   
-  x += 1
+  if (x > innerWidth){
+    dx = -dx;
+  }
+  x += dx;
 }
