@@ -118,3 +118,16 @@ header a:hover{
     background-color:#a6badb;
     text-align:center;
   }
+
+
+#particles {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 200;
+    width: 100%;
+    height: 100%;
+    animation: appear 1.4s ease 0s normal forwards 1 running;
+    opacity: 1;
+    transform: scale(1);
+}
