@@ -1,0 +1,121 @@
+/* Global */
+.container{
+width:80%;
+margin: auto;
+overflow:hidden;
+}
+
+ul{
+margin:0;
+padding:0;
+}
+
+
+/* Header */
+@font-face{
+  font-family:bromello;
+  src: url(https://juhyem.github.io/portfolio/bromello.otf);
+}
+
+@font-face{
+  font-family:moonflower;
+  src: url(https://juhyem.github.io/portfolio/moonflower.ttf);
+}
+
+@font-face{
+  font-family:paperbanner;
+  src: url(https://juhyem.github.io/portfolio/paperbanner.ttf);
+}
+
+@font-face{
+  font-family:shorelines;
+  src: url(https://juhyem.github.io/portfolio/shorelines.otf);
+}
+
+header{
+background:#ececec;
+padding-top:10px;
+min-height:20px;
+padding-bottom:10px;
+}
+
+
+header a{
+color:#00c2bf;
+text-decoration:none;
+text-transform: uppercase;
+font-size:20px;
+}
+
+
+header li{
+float:left;
+display:inline;
+padding: 0 20px 0 20px;
+}
+
+header #branding{
+  float:left;
+}
+
+header #branding h1{
+  margin:0px;
+  font-family:shorelines;
+  color:#00c2bf;
+  
+}
+
+header nav{
+  float:right;
+  margin-top:10px;
+}
+
+header .current a{
+  font-weight:bold;
+}
+
+header a:hover{
+  color:#cccccc;
+  font-weight:bold;
+}
+
+/* Showcase */
+
+#showcase{
+  min-height: 400px;
+  background:url('https://static.pexels.com/photos/6548/cold-snow-winter-mountain.jpeg') no-repeat 0 -300px;
+  text-align:center;
+  color:#eff2f7;
+}
+
+#showcase h1{
+  margin-top:100px;
+  font-size:55px;
+  margin-bottom:10px;
+  color:#eff2f7;
+  font-family:bromello;
+}
+    
+#showcase p{
+  font-size:20px;
+  color:#eff2f7;
+}
+
+/* Boxes */
+#boxes{
+  margin-top: 20px;
+}
+  
+ #boxes .box{
+   float:left;
+   text-align:center;
+   width:30%;
+   padding:10px;
+  }
+  
+  footer{
+    padding:10px;
+    margin-top:20px;
+    background-color:#a6badb;
+    text-align:center;
+  }
